@@ -9,7 +9,7 @@ https://www.udemy.com/course/graph-database-neo4j-with-java-spring-boot-nosql-cy
 </p>
 <h5>3: Node & Relationship</h5>
 <p>-
-  node: student, subject, department.
+  node: student, subject, department.<br>
   relationship: belongs, is_learning.It is also known as path between two nodes.
 </p>
 <h5>4: Properties in Neo4j</h5>
