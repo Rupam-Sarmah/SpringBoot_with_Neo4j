@@ -10,9 +10,10 @@ https://www.udemy.com/course/graph-database-neo4j-with-java-spring-boot-nosql-cy
 <h5>3: Node & Relationship</h5>
 <p>-
   node: student, subject, department. A node can have only one label.<br> 
-  relationship: belongs, is_learning.It is also known as path between two nodes. But relationship can have multiple label.
+  relationship: belongs, is_learning.It is also known as path between two nodes. But relationship can have multiple label.<br>
+  <u>A node can have multiple lab</u>
 </p>
 <h5>4: Properties in Neo4j</h5>
 <p>-
-  
+  Properties: say a node <b>Student</b>. Property will be {name:"John",birth_year:1990;}. <br> Say a property is <b>Is_learning</b>, property will be {marks:80;}.<br><u> we can't have a nested property.</u>
 </p>
