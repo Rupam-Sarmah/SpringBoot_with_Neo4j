@@ -24,5 +24,19 @@ https://www.udemy.com/course/graph-database-neo4j-with-java-spring-boot-nosql-cy
 </p>
 <h5>6. Create Project & DBMS</h5>
 <p>
+  create project, create new "local DBMS". "Student DBMS"-studentdbms(pass). Start the DBMS. It will first stop the default/sample movie DBMS after that it will start the newly created "Student DBMS".
+</p>
+<h5>7. Neo4J Browser Overview</h5>
+<p>
+  to write our query (or cypher). Queries are write in neo4j browser.
+</p>
+<h5>8. Creating First Database in Neo4j</h5>
+<p>
+  <li>Query to create Database: <u>create database student</u>. Now select the newly created database.or to use via command type <u>:use student</u>(: mention here is important.)</li>
+  <li>drop the database: <u>drop database temp</u> </li>
+</p>
+<h4>Section4: CRUD Operations with Neo4j Cypher Query Language</h4>
+<h5>9. Create Node</h5>
+<p>
   
 </p>
