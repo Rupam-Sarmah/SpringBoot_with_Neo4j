@@ -39,5 +39,8 @@ https://www.markdownguide.org/hacks/#:~:text=If%20your%20Markdown%20processor%20
 <h4>Section4: CRUD Operations with Neo4j Cypher Query Language</h4>
 <h5>9. Create Node</h5>
 <p>
-  
+  <ins>create ()</ins> A empty node.<br>
+  <ins>create(:Student)</ins> Here, "Student" is a label.<br>
+  <span>To retireve added nodes, we use <ins>match</ins> keyword.</span>
+  <span>3.12</span>
 </p>
