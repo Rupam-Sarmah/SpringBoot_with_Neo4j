@@ -11,11 +11,11 @@ https://www.udemy.com/course/graph-database-neo4j-with-java-spring-boot-nosql-cy
 <p>-
   node: student, subject, department. A node can have multiple label.<br> 
   relationship: belongs, is_learning.It is also known as path between two nodes. But relationship can have only one label.<br>
-  <u>A node can have multiple lab</u>
+  <ins>A node can have multiple lab</ins>
 </p>
 <h5>4: Properties in Neo4j</h5>
 <p>-
-  Properties: say a node <b>Student</b>. Property will be {name:"John",birth_year:1990;}. <br> Say a property is <b>Is_learning</b>, property will be {marks:80;}.<br><u> we can't have a nested property.</u>
+  Properties: say a node <b>Student</b>. Property will be {name:"John",birth_year:1990;}. <br> Say a property is <b>Is_learning</b>, property will be {marks:80;}.<br><ins> we can't have a nested property.</ins>
 </p>
 <h4> Section3: Getting started with Neo4j</h4>
 <h5>5. Installing Neo4j Desktop</h5>
@@ -32,8 +32,8 @@ https://www.udemy.com/course/graph-database-neo4j-with-java-spring-boot-nosql-cy
 </p>
 <h5>8. Creating First Database in Neo4j</h5>
 <p>
-  <li>Query to create Database: <u>create database student</u>. Now select the newly created database.or to use via command type <u>:use student</u>(: mention here is important.)</li>
-  <li>drop the database: <u>drop database temp</u> </li>
+  <li>Query to create Database: <ins>create database student</ins>. Now select the newly created database.or to use via command type <ins>:use student</ins>(: mention here is important.)</li>
+  <li>drop the database: <ins>drop database temp</ins> </li>
 </p>
 <h4>Section4: CRUD Operations with Neo4j Cypher Query Language</h4>
 <h5>9. Create Node</h5>
