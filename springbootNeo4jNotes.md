@@ -42,5 +42,10 @@ https://www.markdownguide.org/hacks/#:~:text=If%20your%20Markdown%20processor%20
   <ins>create ()</ins> A empty node.<br>
   <ins>create(:Student)</ins> Here, "Student" is a label.<br>
   <span>To retireve added nodes, we use <ins>match</ins> keyword.</span>
-  <span>3.12</span>
+<!--   <span>3.12</span> -->
+  ()--> refer to a node<br>
+  abc --> alias. We can give any name.<br>
+  <ins>match (abc) return *</ins>  or <ins>match (abc) return abc</ins> -> it will give us the node. In this version, * is mandetory to get answer.Otherwise, this will appear ""Invalid input '': expected "*", "DISTINCT" or an expression (line 1, column 19 (offset: 18))
+"match (abc) return"""
+  
 </p>
