@@ -52,4 +52,35 @@ https://www.markdownguide.org/hacks/#:~:text=If%20your%20Markdown%20processor%20
 </ins>...Here "st" is a alias.<br>
   >{} is used to give properties. e.g., <ins>create (st:Home:House{Owner: 'John Cena'}) return st</ins> here "name" is a property.<br>
   <ins>create (st:Home:House{Owner: 'John Cena', country:'USA'}) return st</ins><br>
+  <ins> create (st:Home:House{Owner: 'Peter', country:'UK'}) return st </ins>
+  <ins> match (node) return node </ins> -- get all node<br>
+  <ins> match (node:Home) return node </ins> --  get all the nodes whose label is "Home"<br>
+</p>
+
+<h5>10. Find Node By Property</h5>
+<p>
+  <ins> match (node:Home {Owner: 'Peter'}) return node </ins> -- if we add 'peter' instead of 'Peter', it will not show any result.<br>
+  <ins> match (node:Home {Owner: 'Peter'}) return node limit 1 </ins> -- limit cql used .<br>
+  <ins> match (node:Home {Owner: 'Peter', country:'UK'}) return node </ins> --here "," comma used as "AND" Operator.
+</p>
+
+<h5>11. AND operator with Where clause</h5>
+<p>
+  <ins> match (node:Home)
+where node.Owner='John Cena' AND node.country="USA"
+return node </ins> -- syntax as same as SQL.
+</p>
+
+<h5>12. OR and IN query</h5>
+<p>
+  <ins> match (node:Home) 
+where node.Owner="John Cena" or node.Owner="Peter"
+return node </ins> -- OR operator.
+  <ins> match (node:Home) where node.Owner IN ["John Cena","Peter"]
+return node </ins> -- IN operator.
+</p>
+
+<h5>13. Find node by ID</h5>
+<p>
+  
 </p>
